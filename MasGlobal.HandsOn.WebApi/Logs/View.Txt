@@ -1,0 +1,744 @@
+----------------------------------------
+Timestamp: 2019/07/14 02:35:28.879
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075633181082206
+         ProcessId: 10268
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:14020
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 02:37:34.410
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075634389132875
+         ProcessId: 2748
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:1328
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 02:37:39.721
+         Message: HandlingInstanceID: 521a7d54-612a-4e1f-9072-20332f0e8045
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 02:37:39
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 7:37:39 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075634389132875
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075634389132875
+         ProcessId: 2748
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:1328
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 02:56:09.014
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075645558892031
+         ProcessId: 15996
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:11036
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 02:56:22.140
+         Message: HandlingInstanceID: bff5de10-9ee4-48e7-baa6-38c668435833
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 02:56:22
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 7:56:22 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075645558892031
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075645558892031
+         ProcessId: 15996
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:11036
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 02:59:08.849
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075647416353727
+         ProcessId: 4920
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:10588
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 02:59:08.922
+         Message: HandlingInstanceID: 6eef9cbd-5729-4192-bc54-846eb1dacf7f
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 02:59:08
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 7:59:08 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075647416353727
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075647416353727
+         ProcessId: 4920
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:10588
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:07:43.049
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075652567810142
+         ProcessId: 15364
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:17504
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:07:43.173
+         Message: HandlingInstanceID: 7eecbc0f-1d88-46d6-9e84-d404add041bb
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 03:07:43
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 8:07:43 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075652567810142
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075652567810142
+         ProcessId: 15364
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:17504
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:13:28.905
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075655966689593
+         ProcessId: 17608
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:5212
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:13:29.082
+         Message: HandlingInstanceID: 632a6bfe-e9d9-473c-96fa-dab940d26dcb
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 03:13:29
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 8:13:29 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075655966689593
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075655966689593
+         ProcessId: 17608
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:5212
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:17:37.244
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075658463648388
+         ProcessId: 12196
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:18304
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:17:37.405
+         Message: HandlingInstanceID: 2c4fdd52-cc4e-462c-8370-7fbb24ac1850
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 03:17:37
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 8:17:37 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075658463648388
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075658463648388
+         ProcessId: 12196
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:18304
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:19:46.419
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075659758384745
+         ProcessId: 9408
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:10416
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:19:46.581
+         Message: HandlingInstanceID: 9eecc279-27c9-483e-9354-d0b0e1bd33db
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 03:19:46
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 8:19:46 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075659758384745
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075659758384745
+         ProcessId: 9408
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:10416
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:21:40.976
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075660905633953
+         ProcessId: 17388
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:16572
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:21:41.150
+         Message: HandlingInstanceID: f7730d56-e9a8-4fc3-8947-4d7115b8a95f
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 03:21:41
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 8:21:41 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075660905633953
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075660905633953
+         ProcessId: 17388
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:16572
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 04:23:19.712
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075697502151434
+         ProcessId: 13216
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:10432
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 04:23:19.920
+         Message: HandlingInstanceID: 1aaecc3a-e11f-49a5-a443-e39c777cfcc7
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 04:23:19
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 9:23:19 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075697502151434
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075697502151434
+         ProcessId: 13216
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:10432
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 05:06:27.087
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075723781755821
+         ProcessId: 14760
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:6536
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 05:06:27.571
+         Message: HandlingInstanceID: c13c352f-63c2-4b6d-b1ec-3fe6b6abafb1
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 05:06:27
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 10:06:27 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075723781755821
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075723781755821
+         ProcessId: 14760
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:6536
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 05:08:25.292
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075725043323196
+         ProcessId: 1164
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:11680
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 05:08:25.436
+         Message: HandlingInstanceID: 71d24596-a6c1-45d3-90e7-74f1511b1a91
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 05:08:25
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 10:08:25 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075725043323196
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075725043323196
+         ProcessId: 1164
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:11680
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 05:12:43.542
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075727497255166
+         ProcessId: 15288
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:7896
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 05:12:43.595
+         Message: HandlingInstanceID: a156d39b-2954-4e81-957e-d8ca2d1b77e8
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 05:12:43
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 10:12:43 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075727497255166
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075727497255166
+         ProcessId: 15288
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:7896
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 05:13:23.369
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075728023791866
+         ProcessId: 1196
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:10248
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 05:13:23.530
+         Message: HandlingInstanceID: 60dc5786-2054-4a5f-86ad-03dfe722d5db
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 05:13:23
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 10:13:23 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075728023791866
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075728023791866
+         ProcessId: 1196
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:10248
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 05:46:27.479
+         Message: Application Started
+         Category: View
+         Priority: -1
+         EventId: 0
+         Severity: Information
+         Title:
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-2-132075747794444256
+         ProcessId: 1196
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:7088
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 05:46:27.558
+         Message: HandlingInstanceID: 00c82bb6-19a1-478a-9237-59f7a485dec5
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/14/2019 05:46:27
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : This Exception Is Only For Test Exception Handling Logging
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 10:46:27 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-2-132075747794444256
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: View
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:View
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-2-132075747794444256
+         ProcessId: 1196
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:7088
+         Extended Properties: 
+----------------------------------------

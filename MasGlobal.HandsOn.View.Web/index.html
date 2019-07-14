@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head ng-controller="indexController">
+    <title>{{ appName }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet/less" type="text/css" href="Content/bootstrap.min.css" />
+    <link rel="stylesheet/less" type="text/css" href="Content/ng-table.min.css" />
+
+
+
+</head>
+<body ng-controller="indexController">
+    <h1>{{ appName }}</h1>
+
+
+    <form id="formControls" name="formControls" class="form-group" novalidate show-form-validation>
+        <fieldset>
+            <!-- Form Name -->
+            <legend translate>Paysheet calculator</legend>
+            <!-- Text input-->
+            <div class="form-group">
+                <div class="control-group">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+
+                        <label for="employeeIdTextbox">Type Employee Id to Search</label>
+                        <input type="text" id="employeeIdTextbox" ng-model="search.employeeId" />
+                        <button id="getbyIdButtom" ng-show="search.employeeId.length>0" ng-click="getById()">Get Employees (by Id)</button>
+                        <button id="getallButtom" ng-show="search.employeeId==null || search.employeeId.length==0" ng-click="getAll()">Get Employees (All)</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </fieldset>
+
+        <div class="form-group">
+            <div class="control-group">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+                    Results
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div id="noEntriesFoundBlock" class="search_msg" ng-show="dataTable.data.length == 0 && !searching">
+                <p>No Data found according your search criteria</p>
+            </div>
+        </div>
+
+
+
+        <div id="dataGridContainer" class="ng-table-responsive">
+            <table ng-table="dataTable" ng-hide="dataTable.data.length == 0">
+                <thead>
+                    <tr>
+                        <th>Employee Id.</th>
+                        <th>Document Number</th>
+                        <th>FullName</th>
+                        <th>Payment Value</th>
+                        <th>Contract Type Name</th>
+                        <th>AnnualSalary</th>
+
+                    </tr>
+
+                </thead>
+                
+                <tbody>
+                    <tr ng-repeat="row in $data">
+                        <td  data-title="EmployeeId" sortable="'EmployeeId'">
+                            <div>{{row.EmployeeId }}</div>
+                        </td>
+                        <td header-class="'table_header'" data-title="DocumentNumber" sortable="'DocumentNumber'">
+                            <div>{{row.DocumentNumber }}</div>
+                        </td>
+                        <td header-class="'table_header'" data-title="FullName" sortable="'FullName'">
+                            <div>{{row.FullName }}</div>
+                        </td>
+                        <td header-class="'table_header'" data-title="PaymentValue" sortable="'PaymentValue'">
+                            <div>{{row.PaymentValue }}</div>
+                        </td>
+                        <td header-class="'table_header'" data-title="ContractTypeName" sortable="'ContractTypeName'">
+                            <div>{{row.ContractTypeName }}</div>
+                        </td>
+                        <td header-class="'table_header'" data-title="AnnualSalary" sortable="'AnnualSalary'">
+                            <div>{{row.AnnualSalary }}</div>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    
+
+                </tfoot>
+            </table>
+        </div>
+
+        </form>
+
+        <script type="text/javascript" src="Scripts/jquery-3.0.0.min.js"></script>
+        <script type="text/javascript" src="Scripts/angular.min.js"></script>
+        <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+        <script type="text/javascript" src="Scripts/ng-table.min.js"></script>
+
+        <script type="text/javascript" src="pages/common/app.js"></script>
+        <script type="text/javascript" src="pages/common/app.controllers.js"></script>
+        <script type="text/javascript" src="pages/common/app.services.js"></script>
+
+        <script type="text/javascript" src="pages/common/indexController.js"></script>
+        <script type="text/javascript" src="pages/common/indexService.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+----------------------------------------
+Timestamp: 2019/07/14 03:08:32.490
+         Message: HandlingInstanceID: a5bc7880-57eb-4799-90cb-0422fa3137cb
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/14/2019 03:08:32
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Referencia a objeto no establecida como instancia de un objeto.
+Source : MasGlobal.HandsOn.Model
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : MasGlobal.HandsOn.Model.DTO.EmployeeDTO CreateEmployeeDTO(MasGlobal.HandsOn.Model.Entities.Employee)
+HResult : -2147467261
+Stack Trace :    en MasGlobal.HandsOn.Model.Helpers.HelperDTO.CreateEmployeeDTO(Employee entity)
+   en MasGlobal.HandsOn.BL.Implemetation.EmployeeService.GetById(Int32 employeeId)
+   en MasGlobal.HandsOn.WebApi.Controllers.EmployeeController.GetById(Int32 employeeId) en D:\Job\MasGlobal\MasGlobal.HandsOn.Solution\MasGlobal.HandsOn.WebApi\Controllers\EmployeeController.cs:línea 56
+
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 8:08:32 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075652567810142
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: ServiceLayer
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:ServiceLayer
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075652567810142
+         ProcessId: 15364
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:4244
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:15:08.857
+         Message: HandlingInstanceID: 658b1f4a-7324-4f04-9455-07f62921b16e
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/14/2019 03:15:08
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Referencia a objeto no establecida como instancia de un objeto.
+Source : MasGlobal.HandsOn.View.Web
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Net.Http.HttpResponseMessage CreateSimpleResponse(System.Web.Http.ApiController, System.Net.HttpStatusCode, System.Object)
+HResult : -2147467261
+Stack Trace :    en MasGlobal.HandsOn.WebApi.Helpers.WebApiHelper.CreateSimpleResponse(ApiController controller, HttpStatusCode httpStatusCode, Object data) en D:\Job\MasGlobal\MasGlobal.HandsOn.Solution\MasGlobal.HandsOn.WebApi\Helpers\WebApiHelper.cs:línea 35
+   en MasGlobal.HandsOn.WebApi.Controllers.EmployeeController.GetById(Int32 employeeId) en D:\Job\MasGlobal\MasGlobal.HandsOn.Solution\MasGlobal.HandsOn.WebApi\Controllers\EmployeeController.cs:línea 57
+
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 8:15:08 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075655966689593
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: ServiceLayer
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:ServiceLayer
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075655966689593
+         ProcessId: 17608
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:5612
+         Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2019/07/14 03:18:27.077
+         Message: HandlingInstanceID: ee464f53-f40c-473d-91e1-5ae2b6270fab
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+07/14/2019 03:18:27
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Referencia a objeto no establecida como instancia de un objeto.
+Source : MasGlobal.HandsOn.View.Web
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Net.Http.HttpResponseMessage CreateSimpleResponse(System.Web.Http.ApiController, System.Net.HttpStatusCode, System.Object)
+HResult : -2147467261
+Stack Trace :    en MasGlobal.HandsOn.WebApi.Helpers.WebApiHelper.CreateSimpleResponse(ApiController controller, HttpStatusCode httpStatusCode, Object data) en D:\Job\MasGlobal\MasGlobal.HandsOn.Solution\MasGlobal.HandsOn.WebApi\Helpers\WebApiHelper.cs:línea 35
+   en MasGlobal.HandsOn.WebApi.Controllers.EmployeeController.GetById(Int32 employeeId) en D:\Job\MasGlobal\MasGlobal.HandsOn.Solution\MasGlobal.HandsOn.WebApi\Controllers\EmployeeController.cs:línea 63
+
+Additional Info:
+
+MachineName : VITO-PC
+TimeStamp : 14/07/2019 8:18:27 a. m.
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : /LM/W3SVC/2/ROOT-1-132075658463648388
+ThreadIdentity : 
+WindowsIdentity : VITO-PC\Ever Alonso Torres G
+
+         Category: ServiceLayer
+         Priority: 0
+         EventId: 100
+         Severity: Error
+         Title:ServiceLayer
+         Machine: VITO-PC
+         App Domain: /LM/W3SVC/2/ROOT-1-132075658463648388
+         ProcessId: 12196
+         Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+         Thread Name: 
+         Win32 ThreadId:16432
+         Extended Properties: 
+----------------------------------------

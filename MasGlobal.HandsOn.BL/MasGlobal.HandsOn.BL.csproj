@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnterpriseLibrary.ExceptionHandling" Version="6.0.1304" />
+    <PackageReference Include="EnterpriseLibrary.ExceptionHandling.Logging" Version="6.0.1304" />
+    <PackageReference Include="EnterpriseLibrary.Logging" Version="6.0.1304" />
+    <PackageReference Include="Unity" Version="5.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MasGlobal.HandsOn.Model\MasGlobal.HandsOn.Model.csproj" />
+    <ProjectReference Include="..\MasGlobal.HandsOn.Repository\MasGlobal.HandsOn.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Configuration">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Configuration.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

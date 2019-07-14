@@ -1,0 +1,116 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasGlobal.HandsOn.BL", "MasGlobal.HandsOn.BL\MasGlobal.HandsOn.BL.csproj", "{F34DB29A-446A-45C3-8D44-7532D0A36132}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasGlobal.HandsOn.Model", "MasGlobal.HandsOn.Model\MasGlobal.HandsOn.Model.csproj", "{3F5922FA-1D8D-4599-97B7-ED7351127BDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Data Access", "01 Data Access", "{D0117737-C002-4CCD-A689-A9EFDF623B4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Models", "02 Models", "{E538334F-FCD3-4FAE-8255-91798FD3B0E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Business Logic", "04 Business Logic", "{98239ABA-EBFA-4D86-8458-039288B0910D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Services", "05 Services", "{A1A5E20A-6DF9-4B6E-896C-D09BE04377E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 View", "06 View", "{0A1080AA-8C24-456F-8CA4-8BB41B70E86D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Repository", "03 Repository", "{245DA8DC-5C0E-4071-8766-AD3A38E54ACA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasGlobal.HandsOn.DAL", "MasGlobal.HandsOn.DAL\MasGlobal.HandsOn.DAL.csproj", "{7EE17F1F-8122-4ACE-87F5-F9FFC10AE692}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 Test", "07 Test", "{61904EFA-3C76-4E9E-ABAD-409857F0A9D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasGlobal.HandsOn.Test", "MasGlobal.HandsOn.Test\MasGlobal.HandsOn.Test.csproj", "{A918C39C-3CCA-4A71-8891-AC9F860C3A77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasGlobal.HandsOn.Repository", "MasGlobal.HandsOn.Repository\MasGlobal.HandsOn.Repository.csproj", "{74EE46E0-CEC9-41E5-9591-49CD62168A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasGlobal.HandsOn.WebApi", "MasGlobal.HandsOn.WebApi\MasGlobal.HandsOn.WebApi.csproj", "{AC6947EC-B0B1-4702-AA94-AC03C8667353}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MasGlobal.HandsOn.View.Web(1)", "MasGlobal.HandsOn.View.Web\", "{CD070D46-A791-445E-8590-C972DFE3E431}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50596"
+		Debug.AspNetCompiler.PhysicalPath = "MasGlobal.HandsOn.View.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50596\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50596"
+		Release.AspNetCompiler.PhysicalPath = "MasGlobal.HandsOn.View.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50596\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50596"
+		SlnRelativePath = "MasGlobal.HandsOn.View.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MasGlobal.HandsOn.DB", "MasGlobal.HandsOn.DB\MasGlobal.HandsOn.DB.sqlproj", "{F5F5B918-5964-4B1E-8548-9F199BF98D6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 DataBase", "00 DataBase", "{EE0D53BE-1423-4C20-A468-07A511776CA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F34DB29A-446A-45C3-8D44-7532D0A36132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34DB29A-446A-45C3-8D44-7532D0A36132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34DB29A-446A-45C3-8D44-7532D0A36132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34DB29A-446A-45C3-8D44-7532D0A36132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5922FA-1D8D-4599-97B7-ED7351127BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5922FA-1D8D-4599-97B7-ED7351127BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5922FA-1D8D-4599-97B7-ED7351127BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5922FA-1D8D-4599-97B7-ED7351127BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE17F1F-8122-4ACE-87F5-F9FFC10AE692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE17F1F-8122-4ACE-87F5-F9FFC10AE692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE17F1F-8122-4ACE-87F5-F9FFC10AE692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE17F1F-8122-4ACE-87F5-F9FFC10AE692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A918C39C-3CCA-4A71-8891-AC9F860C3A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A918C39C-3CCA-4A71-8891-AC9F860C3A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A918C39C-3CCA-4A71-8891-AC9F860C3A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A918C39C-3CCA-4A71-8891-AC9F860C3A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74EE46E0-CEC9-41E5-9591-49CD62168A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EE46E0-CEC9-41E5-9591-49CD62168A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EE46E0-CEC9-41E5-9591-49CD62168A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EE46E0-CEC9-41E5-9591-49CD62168A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6947EC-B0B1-4702-AA94-AC03C8667353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6947EC-B0B1-4702-AA94-AC03C8667353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6947EC-B0B1-4702-AA94-AC03C8667353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6947EC-B0B1-4702-AA94-AC03C8667353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD070D46-A791-445E-8590-C972DFE3E431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD070D46-A791-445E-8590-C972DFE3E431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD070D46-A791-445E-8590-C972DFE3E431}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD070D46-A791-445E-8590-C972DFE3E431}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F5F5B918-5964-4B1E-8548-9F199BF98D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F5B918-5964-4B1E-8548-9F199BF98D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F5B918-5964-4B1E-8548-9F199BF98D6F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F5F5B918-5964-4B1E-8548-9F199BF98D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F5B918-5964-4B1E-8548-9F199BF98D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F5B918-5964-4B1E-8548-9F199BF98D6F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F34DB29A-446A-45C3-8D44-7532D0A36132} = {98239ABA-EBFA-4D86-8458-039288B0910D}
+		{3F5922FA-1D8D-4599-97B7-ED7351127BDC} = {E538334F-FCD3-4FAE-8255-91798FD3B0E3}
+		{7EE17F1F-8122-4ACE-87F5-F9FFC10AE692} = {D0117737-C002-4CCD-A689-A9EFDF623B4C}
+		{A918C39C-3CCA-4A71-8891-AC9F860C3A77} = {61904EFA-3C76-4E9E-ABAD-409857F0A9D6}
+		{74EE46E0-CEC9-41E5-9591-49CD62168A38} = {245DA8DC-5C0E-4071-8766-AD3A38E54ACA}
+		{AC6947EC-B0B1-4702-AA94-AC03C8667353} = {A1A5E20A-6DF9-4B6E-896C-D09BE04377E3}
+		{CD070D46-A791-445E-8590-C972DFE3E431} = {0A1080AA-8C24-456F-8CA4-8BB41B70E86D}
+		{F5F5B918-5964-4B1E-8548-9F199BF98D6F} = {EE0D53BE-1423-4C20-A468-07A511776CA3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F96EB73D-901E-4D23-989A-4E9FFFF0ABAD}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
