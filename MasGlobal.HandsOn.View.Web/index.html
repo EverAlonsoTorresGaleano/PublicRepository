@@ -1,11 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html ng-app="app">
-<head ng-controller="indexController">
+<head lang="en" ng-controller="indexController">
     <title>{{ appName }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet/less" type="text/css" href="Content/bootstrap.min.css" />
-    <link rel="stylesheet/less" type="text/css" href="Content/ng-table.min.css" />
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="Content/ng-table.min.css" />
 
 
 
@@ -14,44 +15,42 @@
     <h1>{{ appName }}</h1>
 
 
-    <form id="formControls" name="formControls" class="form-group" novalidate show-form-validation>
-        <fieldset>
-            <!-- Form Name -->
-            <legend translate>Paysheet calculator</legend>
-            <!-- Text input-->
-            <div class="form-group">
-                <div class="control-group">
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-
-                        <label for="employeeIdTextbox">Type Employee Id to Search</label>
-                        <input type="text" id="employeeIdTextbox" ng-model="search.employeeId" />
-                        <button id="getbyIdButtom" ng-show="search.employeeId.length>0" ng-click="getById()">Get Employees (by Id)</button>
-                        <button id="getallButtom" ng-show="search.employeeId==null || search.employeeId.length==0" ng-click="getAll()">Get Employees (All)</button>
-                    </div>
-                </div>
-            </div>
-
-
-        </fieldset>
+    <form class="container-fluid">
 
         <div class="form-group">
-            <div class="control-group">
-                <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="row">
+                <div class="col-md-3 col-xs-6  col-sm-12">
+                    <label for="employeeIdTextbox">Type Employee Id to Search</label>
+                </div>
+                <div class="col-md-3 col-xs-3  col-sm-12">
+                    <input type="text" class="form-control" id="employeeIdTextbox" ng-model="search.employeeId" />
+                </div>
+                <div class="col-xs-3 col-md-6 col-sm-12">
+                    <button type="button" class="btn btn-primary" id="getbyIdButtom" ng-show="search.employeeId.length>0" ng-click="getById()">Get Employees (by Id)</button>
 
-                    Results
+                    <button type="button" class="btn btn-primary" id="getallButtom" ng-show="search.employeeId==null || search.employeeId.length==0" ng-click="getAll()">Get Employees (All)</button>
                 </div>
             </div>
         </div>
 
         <div class="form-group">
-            <div id="noEntriesFoundBlock" class="search_msg" ng-show="dataTable.data.length == 0 && !searching">
-                <p>No Data found according your search criteria</p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <b>Results</b>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div id="noEntriesFoundBlock" class="search_msg" ng-show="dataTable.data.length == 0 && !searching">
+                    <p>No Data found according your search criteria</p>
+                </div>
             </div>
         </div>
 
 
 
-        <div id="dataGridContainer" class="ng-table-responsive">
+        <div id="dataGridContainer" class="table">
             <table ng-table="dataTable" ng-hide="dataTable.data.length == 0">
                 <thead>
                     <tr>
@@ -65,10 +64,10 @@
                     </tr>
 
                 </thead>
-                
+
                 <tbody>
                     <tr ng-repeat="row in $data">
-                        <td  data-title="EmployeeId" sortable="'EmployeeId'">
+                        <td data-title="EmployeeId" sortable="'EmployeeId'">
                             <div>{{row.EmployeeId }}</div>
                         </td>
                         <td header-class="'table_header'" data-title="DocumentNumber" sortable="'DocumentNumber'">
@@ -89,24 +88,27 @@
                     </tr>
                 </tbody>
                 <tfoot>
-                    
+
 
                 </tfoot>
             </table>
         </div>
 
-        </form>
+    </form>
 
-        <script type="text/javascript" src="Scripts/jquery-3.0.0.min.js"></script>
-        <script type="text/javascript" src="Scripts/angular.min.js"></script>
-        <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
-        <script type="text/javascript" src="Scripts/ng-table.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="Scripts/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js" crossorigin="anonymous"></script>
 
-        <script type="text/javascript" src="pages/common/app.js"></script>
-        <script type="text/javascript" src="pages/common/app.controllers.js"></script>
-        <script type="text/javascript" src="pages/common/app.services.js"></script>
 
-        <script type="text/javascript" src="pages/common/indexController.js"></script>
-        <script type="text/javascript" src="pages/common/indexService.js"></script>
+    <script type="text/javascript" src="Scripts/ng-table.min.js"></script>
+
+    <script type="text/javascript" src="pages/common/app.js"></script>
+    <script type="text/javascript" src="pages/common/app.controllers.js"></script>
+    <script type="text/javascript" src="pages/common/app.services.js"></script>
+
+    <script type="text/javascript" src="pages/common/indexController.js"></script>
+    <script type="text/javascript" src="pages/common/indexService.js"></script>
 </body>
 </html>
