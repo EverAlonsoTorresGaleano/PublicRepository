@@ -62,10 +62,12 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="Backup" />
+    <Folder Include="PopulateData" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Employees.sql" />
     <Build Include="dbo\Tables\DocumentTypes.sql" />
+    <Build Include="PopulateData\PopulateData.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Backup\MasGlobal.Paysheet.DB.bak" />
