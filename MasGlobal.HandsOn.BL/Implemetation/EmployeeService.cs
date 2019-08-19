@@ -5,6 +5,7 @@ using MasGlobal.HandsOn.Repository.Implementation;
 using MasGlobal.HandsOn.Repository.Interface;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Unity;
 
 namespace MasGlobal.HandsOn.BL.Implemetation
@@ -27,6 +28,14 @@ namespace MasGlobal.HandsOn.BL.Implemetation
             var repositoryResult = EmployeeRepository.GetAll();
             var returnValue = (from record in repositoryResult
                                select HelperDTO.CreateEmployeeDTO(record)).ToList<EmployeeDTO>();
+            return returnValue;
+        }
+
+        public async  Task<List<EmployeeDTO>> GetAllExternal()
+        {
+            var repositoryResult = await EmployeeRepository.GetAllExternal();
+            var returnValue = (from record in repositoryResult
+                               select HelperDTO.CreateEmployeeDTOExternal(record)).ToList<EmployeeDTO>();
             return returnValue;
         }
 

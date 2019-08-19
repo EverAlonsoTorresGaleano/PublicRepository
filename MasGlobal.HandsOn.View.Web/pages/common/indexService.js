@@ -11,6 +11,7 @@
         var Global_ServiceApiBaseUrl = 'http://localhost:50350/'
         return {
             EmployeeGetAll: EmployeeGetAll,
+            EmployeeGetAllExternal: EmployeeGetAllExternal,
             EmployeeGetById: EmployeeGetById,
         };
 
@@ -22,6 +23,19 @@
                     deferred.resolve(response.data);
                 }, function (error) {
                         deferred.reject(error.msg);
+                });
+
+            return deferred.promise;
+        }
+
+        function EmployeeGetAllExternal() {
+            var deferred = $q.defer();
+
+            $http.get(Global_ServiceApiBaseUrl + 'api/Employee/GetAllExternal')
+                .then(function (response) {
+                    deferred.resolve(response.data);
+                }, function (error) {
+                    deferred.reject(error.msg);
                 });
 
             return deferred.promise;

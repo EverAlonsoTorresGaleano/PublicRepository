@@ -1,5 +1,6 @@
 ﻿using MasGlobal.HandsOn.Model.DTO;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace MasGlobal.HandsOn.BL.Interface
 {
@@ -13,6 +14,13 @@ namespace MasGlobal.HandsOn.BL.Interface
         /// </summary>
         /// <returns></returns>
          List<EmployeeDTO> GetAll();
+
+
+        /// <summary>
+        /// GEl All External from swagger
+        /// </summary>
+        /// <returns></returns>
+        Task<List<EmployeeDTO>> GetAllExternal();
 
         /// <summary>
         /// Get employee by Id.

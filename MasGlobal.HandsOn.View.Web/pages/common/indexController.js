@@ -94,6 +94,42 @@
                     }
                 });
         }
+
+        $scope.getAllExternal = getAllExternal;
+        function getAllExternal() {
+            $scope.dataTable = new ngTableParams({
+                page: 1, // show first page
+                count: 10000,
+                sorting: {
+                    'EmployeeId': 'asc' // initial sorting
+                }
+            }, {
+                    total: 0,
+                    counts: 10000, //prevent showing page size buttons
+                    getData: function ($defer, params) {
+
+                        var sortColumn = Object.keys(params.sorting())[0];
+                        var sortDirection = params.sorting()[sortColumn];
+
+                        $scope.searching = true;
+
+
+                        indexService.EmployeeGetAllExternal().then(function (result) {
+
+                            $scope.data = result;
+                            params.total($scope.data.length);
+
+                            $scope.searching = false;
+                            $scope.data = params.sorting() ? $filter('orderBy')($scope.data, params.orderBy()) : $scope.data;
+                            $scope.data = params.filter() ? $filter('filter')($scope.data, params.filter()) : $scope.data;
+                            $scope.data = $scope.data.slice((params.page() - 1) * params.count(), params.page() * params.count());
+                            $defer.resolve($scope.data);
+                        });
+                        $scope.searching = false;
+                    }
+                });
+        }
+
         /* Initialize*/
 
         function Initialize() {

@@ -2,6 +2,7 @@
 using MasGlobal.HandsOn.WebApi.Helpers;
 using System;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.Http;
 using Unity;
 
@@ -40,6 +41,24 @@ namespace MasGlobal.HandsOn.WebApi.Controllers
             }
         }
 
+
+        /// <summary>
+        /// Get All
+        /// </summary>
+        /// <returns></returns>
+        [System.Web.Http.Route("api/Employee/GetAllExternal")]
+        public async Task<HttpResponseMessage> GetAllExternal()
+        {
+            try
+            {
+                var returnValue = await EmployeeService.GetAllExternal();
+                return this.CreateSimpleResponse(System.Net.HttpStatusCode.OK, returnValue);
+            }
+            catch (Exception error)
+            {
+                return this.CreateErrorResponse(error);
+            }
+        }
 
         /// <summary>
         /// Get All
